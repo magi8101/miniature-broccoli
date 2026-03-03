@@ -1,18 +1,9 @@
-import java.util.*;
-
-
 public class PalindromeCheckerApp {
-    public static boolean isPalindrome(String str) {
-        String reversed = new StringBuilder(str).reverse().toString();
-        return str.equalsIgnoreCase(reversed);
+    static void main(String[] args) {
+        System.out.println("Welcome to Palindrome checker app");
+        System.out.println("version:1.0");
+        System.out.println("system intialized successfully");
+
     }
-    public static void main(String[] args) {
-        Scanner myObj = new Scanner(System.in);
-        String input = myObj.nextLine();
-        if (isPalindrome(input)) {
-            System.out.println(input + " is a palindrome.");
-        } else {
-            System.out.println(input + " is not a palindrome.");
-        }
-    }
+
 }
